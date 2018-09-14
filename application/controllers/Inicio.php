@@ -43,9 +43,9 @@ class Inicio extends BS_Controller {
      * Muestra un listado de clientes
      */
     public function seguimientoClientes(){
-        $clientes = $this->clientes_model->obtener_todos();
-        $this->asignarDatosVista('clientes', $clientes);
-        $this->mostrarVista('panel/secretaria/seguimientoClientes');
+        //$clientes = $this->clientes_model->obtener_todos();
+        //$this->asignarDatosVista('clientes', $clientes);
+        //$this->mostrarVista('panel/secretaria/seguimientoClientes');
     }
 
 
